@@ -1,9 +1,10 @@
-## Dapurku Website
+# Detailed Website
 <div align="center">
   <img src="https://github.com/yonathansiregar/Dapurku-website/blob/master/img/icons/dapurku.png" alt="Dapurku-logo" title="Dapurku">
+  <h1>Dapurku Website</h1>
 </div>
 
-## TECH STACK ⚙
+## Tech Stack ⚙
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -12,14 +13,12 @@
 </ul>
 
 ## Who Designed and Developed This Website Project?
-Designer:
+### Designer:
 <ul>
-  <li>
-    <a href="https://github.com/KylixEza">Kylix Eza Saputra</a>
-  </li>
+  <li>Kylix Eza Saputra</li>
   <li>Agil Winaldi</li>
   <li>Samuel Fernando</li>
 </ul>
 
-Developer:
-<a href="https://github.com/alfrenanday">Alfrenanda Yonathan Siregar</a>
+### Developer:
+Alfrenanda Yonathan Siregar
