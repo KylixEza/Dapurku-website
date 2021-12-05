@@ -1,4 +1,3 @@
-# Detailed Website
 <div align="center">
   <img src="https://github.com/yonathansiregar/Dapurku-website/blob/master/img/icons/dapurku.png" alt="Dapurku-logo" title="Dapurku">
   <h1>Dapurku Website</h1>
