@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../../img/icons/dapurku.png" />
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Dapurku | Masuk</title>
+</head>
+
+<body>
+  <div class="login-page">
+    <div id="title">
+      <img src="../../img/icons/dapurku.png" alt="Logo" class="logo">
+      <p class="keterangan-masuk">Masuk</p>
+    </div>
+
+    <form action="" method="post">
+      <div id="email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="pengisian-email" required>
+      </div>
+
+      <div id="password">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="pengisian-password" required>
+      </div>
+
+      <div class="link-lupa-password">
+        <a href="#" id="lupa-password">Lupa password?</a>
+      </div>
+
+      <div id="login-btn">
+        <button type="submit" class="btn-masuk">
+          <a href="../home.html" class="masuk">Masuk</a>
+        </button>
+      </div>
+
+      <div id="border-line">
+        <img src="../../img/lines/left.png" alt="Left border line" class="left">
+        atau
+        <img src="../../img/lines/right.png" alt="Right border line" class="right">
+      </div>
+
+      <div id="google-btn">
+        <button type="submit" class="btn-google">
+          <a href="#" class="masuk-google">
+            <div id="icon-google">
+              <img src="../../img/icons/google.png" alt="Icon Google" class="google-icon" />
+            </div>
+
+            <div id="keterangan">
+              Masuk dengan akun Google
+            </div>
+          </a>
+        </button>
+      </div>
+
+      <div id="register-link">
+        <p>Tidak punya akun? <a href="./register.html" target="_blank" class="link-daftar">Daftar</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script src="./js/signin.js"></script>
+</body>
+
+</html>

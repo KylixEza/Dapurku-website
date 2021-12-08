@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.keterangan-masuk {
+  color: #F1323E;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+label {
+  font-family: 'Inter', sans-serif;
+  padding: 1em 0 1em 0;
+}
+
+input {
+  padding: 0.5em 0 0.5em 1em;
+}
+
+#email {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+}
+
+#password {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+}
+
+#pengisian-email, #pengisian-password {
+  border: 1px solid #D0D4D9;
+  border-radius: 5px;
+}
+
+#lupa-password {
+  color: #F1323E;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#lupa-password:hover {
+  color: #0000FF;
+}
+
+.link-lupa-password {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.btn-masuk {
+  background-color: #F1323E;
+  border: 1px solid #F1323E;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5em 22.3em 0.5em 22.3em;
+}
+
+.btn-masuk:hover {
+  background-color: #341cc0;
+  border: 1px solid #341cc0;
+}
+
+.masuk {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+#border-line {
+  color: #8A887B;
+  margin: 1em 0 1em 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.btn-google {
+  background-color: #ffffff;
+  border: 1px solid #C9C9C9;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5em 15em 0.5em 15em;
+}
+
+.masuk-google {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+}
+
+#icon-google {
+  margin-top: 0.2em;
+}
+
+#keterangan {
+  margin-top: 0.3em;
+  margin-left: 1em;
+}
+
+#register-link {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.link-daftar {
+  color: #F1323E;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.link-daftar:hover {
+  color: #0000FF;
+}
+
+@media only screen and (max-width: 730px) {
+  .login-page {
+    width: auto;
+  }
+
+  button {
+    background-color: #ffffff;
+  }
+}
