@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@900&family=Work+Sans:wght@500&display=swap');
+
+.title {
+  color: #1E1E1E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+
+.peringkatku {
+  color: #F1323E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+
+.first {
+  background-color: #FFBA57;
+  max-width: 81.25em;
+}
+
+.second {
+  background-color: #9E9E9E;
+  max-width: 81.25em;
+}
+
+.third {
+  background-color: #CE7430;
+  max-width: 81.25em;
+}
+
+.fourth {
+  background: #FE9494;
+  max-width: 81.25em;
+}
