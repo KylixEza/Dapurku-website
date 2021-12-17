@@ -46,6 +46,10 @@
       color: #cacaca;
       background-color: #2b2dc4;
     }
+
+    .link {
+      text-decoration: none;
+    }
   </style>
 
   <div class="top-bar border-bottom shadow p-3 mb-5 bg-body rounded">
@@ -66,10 +70,11 @@
       <p>apabila telah selesai diproses</p>
     </div>
 
-    <div class="tombol mx-auto d-grid gap-2 col-7 col-sm-6 col-md-4 mx-auto">
-      <a href="/pages/pesanan/riwayat/history.html"></a>
-      <button type="button" class="btn">Masuk ke Halaman Riwayat</button>
-    </div>
+    <a href="/pages/pesanan/riwayat/history.html" class="link">
+      <div class="tombol mx-auto d-grid gap-2 col-7 col-sm-6 col-md-4 mx-auto">
+        <button type="button" class="btn">Masuk ke Halaman Riwayat</button>
+      </div>
+    </a>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
