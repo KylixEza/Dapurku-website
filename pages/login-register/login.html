@@ -17,7 +17,7 @@
       <p class="keterangan-masuk">Masuk</p>
     </div>
 
-    <form action="" method="post">
+    <div class="login-form">
       <div id="email">
         <label for="email">Email</label>
         <input type="email" name="email" id="pengisian-email">
@@ -34,7 +34,7 @@
 
       <div id="login-btn">
         <button type="submit" class="btn-masuk">
-          <a href="../../pages/home.html" class="masuk" target="_blank">Masuk</a>
+          <a href="../home.html" class="masuk" target="_blank">Masuk</a>
         </button>
       </div>
 
@@ -61,8 +61,17 @@
       <div id="register-link">
         <p>Tidak punya akun? <a href="./register.html" target="_blank" class="link-daftar">Daftar</a></p>
       </div>
+    </div>
     </form>
   </div>
+
+  <script>
+    document.getElementsByClassName("btn-masuk").addEventListener("click", visitPage);
+
+    function visitPage() {
+      window.location.assign("../home.html")
+    }
+  </script>
 </body>
 
 </html>
