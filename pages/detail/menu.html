@@ -61,6 +61,19 @@
     .bi-star {
       color: #FFDB6F;
     }
+
+    .fixed-content {
+      height: 100%;
+      margin: 0 auto;
+      width: 450px;
+      right: 0;
+      position: fixed;
+      margin-right: 150px;
+    }
+
+    .left-side {
+      margin-right: 50%;
+    }
   </style>
 
   <div class="top-bar border-bottom shadow p-3 mb-5 bg-body rounded">
@@ -69,7 +82,7 @@
 
   <div class="contents container">
     <div class="row">
-      <div class="col">
+      <div class="col left-side">
         <div class="row petunjuk">
           <div class="sub-judul fs-4">
             <p>Petunjuk</p>
@@ -210,7 +223,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col fixed-content">
         <div class="row video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/HDOHOtCx048" title="YouTube video player"
             frameborder="0"
