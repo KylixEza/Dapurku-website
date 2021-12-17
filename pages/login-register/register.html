@@ -19,43 +19,51 @@
       </div>
     </div>
 
-    <form action="" method="post">
+    <div class="register-form">
       <div id="kolom-namapengguna">
         <label for="nama-lengkap">Nama</label>
-        <input type="text" name="nama-lengkap" id="pengisian-nama" required>
+        <input type="text" name="nama-lengkap" id="pengisian-nama">
       </div>
 
       <div id="kolom-notelp">
         <label for="no-telp">Nomor Telepon</label>
-        <input type="number" name="no-telp" id="pengisian-notelp" required>
+        <input type="number" name="no-telp" id="pengisian-notelp">
       </div>
 
       <div id="kolom-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="pengisian-email" required>
+        <input type="email" name="email" id="pengisian-email">
       </div>
 
       <div id="kolom-alamat">
         <label for="alamat">Alamat</label>
-        <input type="text" name="alamat" id="pengisian-alamat" required>
+        <input type="text" name="alamat" id="pengisian-alamat">
       </div>
 
       <div id="kolom-password">
         <label for="password">Password</label>
-        <input type="password" name="password" id="pengisian-password" required>
+        <input type="password" name="password" id="pengisian-password">
       </div>
 
       <div id="register-btn">
         <button type="submit" class="btn-daftar">
-          <a href="../home.html" class="daftar">Daftar</a>
+          <a href="../home.html" class="daftar" target="_blank">Daftar</a>
         </button>
       </div>
 
       <div id="login-link">
         <p>Sudah punya akun ? <a href="./login.html" class="link-login" target="_blank">Masuk</a></p>
       </div>
-    </form>
+    </div>
   </div>
+
+  <script>
+    document.getElementsByClassName("btn-daftar").addEventListener("click", visitPage);
+
+    function visitPage() {
+      window.location.assign("../home.html")
+    }
+  </script>
 </body>
 
 </html>
